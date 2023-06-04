@@ -10,7 +10,7 @@ if sys.version_info >= (3, 8) and sys.platform.lower().startswith("win"):
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 
-DB_DSN = "postgres://postgres:41321122@127.0.0.1:5432/aiohttp_hw"
+DB_DSN = "postgres://postgres:*****2@127.0.0.1:5432/aiohttp_hw"
 
 
 async def register_pg_pool(app):
